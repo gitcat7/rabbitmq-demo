@@ -1,6 +1,7 @@
 package com.yk.rabbitmqdemo.message;
 
 import com.rabbitmq.client.*;
+import org.springframework.amqp.core.MessageListener;
 
 import java.io.IOException;
 import java.util.HashMap;
